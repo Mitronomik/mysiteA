@@ -1,0 +1,1306 @@
+[
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 1,
+    "path": "source/extracted/page-renders/26-ya-liniya-vo-7-page-01.webp",
+    "public": false
+  },
+  {
+    "kind": "cover",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 1,
+    "path": "public/images/landing/26-ya-liniya-vo-7-cover.webp",
+    "public": true
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 2,
+    "path": "source/extracted/page-renders/26-ya-liniya-vo-7-page-02.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "source/extracted/page-renders/26-ya-liniya-vo-7-page-03.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 4,
+    "path": "source/extracted/page-renders/26-ya-liniya-vo-7-page-04.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 5,
+    "path": "source/extracted/page-renders/26-ya-liniya-vo-7-page-05.webp",
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 1,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p01-img01-402x402.jpeg",
+    "width": 402,
+    "height": 402,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 1,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p01-img02-592x666.jpeg",
+    "width": 592,
+    "height": 666,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 2,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p02-img01.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p02-img01-1565x575.jpeg",
+    "width": 1565,
+    "height": 575,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p02-img02-352x214.jpeg",
+    "width": 352,
+    "height": 214,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p02-img03-817x396.jpeg",
+    "width": 817,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p02-img04-782x388.jpeg",
+    "width": 782,
+    "height": 388,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p02-img05-875x396.jpeg",
+    "width": 875,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 2,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p02-img06.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p02-img06-1139x565.jpeg",
+    "width": 1139,
+    "height": 565,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img01.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img01-1069x960.jpeg",
+    "width": 1069,
+    "height": 960,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img02.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img02-1069x960.jpeg",
+    "width": 1069,
+    "height": 960,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img03.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img03-935x841.jpeg",
+    "width": 935,
+    "height": 841,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img04.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img04-962x864.jpeg",
+    "width": 962,
+    "height": 864,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img05.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img05-802x720.jpeg",
+    "width": 802,
+    "height": 720,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img06.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img06-720x649.jpeg",
+    "width": 720,
+    "height": 649,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img07.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img07-1270x1142.jpeg",
+    "width": 1270,
+    "height": 1142,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img08.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img08-1152x1037.jpeg",
+    "width": 1152,
+    "height": 1037,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img09.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img09-1058x952.jpeg",
+    "width": 1058,
+    "height": 952,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img10.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img10-1058x952.jpeg",
+    "width": 1058,
+    "height": 952,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img11-401x231.jpeg",
+    "width": 401,
+    "height": 231,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 3,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p03-img12.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p03-img12-3602x843.jpeg",
+    "width": 3602,
+    "height": 843,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 4,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p04-img05.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p04-img05-1133x1020.jpeg",
+    "width": 1133,
+    "height": 1020,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 4,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p04-img06.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p04-img06-1152x1038.jpeg",
+    "width": 1152,
+    "height": 1038,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 4,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p04-img07.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p04-img07-1270x1142.jpeg",
+    "width": 1270,
+    "height": 1142,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 4,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p04-img08.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p04-img08-1254x1128.jpeg",
+    "width": 1254,
+    "height": 1128,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 4,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p04-img09.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p04-img09-1058x952.jpeg",
+    "width": 1058,
+    "height": 952,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 4,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p04-img10.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p04-img10-1058x952.jpeg",
+    "width": 1058,
+    "height": 952,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 5,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p05-img01.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p05-img01-780x1280.jpeg",
+    "width": 780,
+    "height": 1280,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 5,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p05-img02-402x237.jpeg",
+    "width": 402,
+    "height": 237,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 5,
+    "path": "public/images/landing/26-ya-liniya-vo-7-p05-img03.webp",
+    "rawPath": "source/extracted/raw-images/26-ya-liniya-vo-7-p05-img03-2149x1189.jpeg",
+    "width": 2149,
+    "height": 1189,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/26-я линия ВО 7.pdf",
+    "page": 5,
+    "path": "source/extracted/raw-images/26-ya-liniya-vo-7-p05-img04-1506x168.jpeg",
+    "width": 1506,
+    "height": 168,
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 1,
+    "path": "source/extracted/page-renders/kirochnaya-6-page-01.webp",
+    "public": false
+  },
+  {
+    "kind": "cover",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 1,
+    "path": "public/images/landing/kirochnaya-6-cover.webp",
+    "public": true
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 2,
+    "path": "source/extracted/page-renders/kirochnaya-6-page-02.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "source/extracted/page-renders/kirochnaya-6-page-03.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "source/extracted/page-renders/kirochnaya-6-page-04.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 5,
+    "path": "source/extracted/page-renders/kirochnaya-6-page-05.webp",
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 1,
+    "path": "source/extracted/raw-images/kirochnaya-6-p01-img01-402x402.jpeg",
+    "width": 402,
+    "height": 402,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 1,
+    "path": "public/images/landing/kirochnaya-6-p01-img02.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p01-img02-1074x1208.jpeg",
+    "width": 1074,
+    "height": 1208,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 2,
+    "path": "public/images/landing/kirochnaya-6-p02-img01.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p02-img01-1616x567.jpeg",
+    "width": 1616,
+    "height": 567,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/kirochnaya-6-p02-img02-352x214.jpeg",
+    "width": 352,
+    "height": 214,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/kirochnaya-6-p02-img03-817x396.jpeg",
+    "width": 817,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/kirochnaya-6-p02-img04-782x388.jpeg",
+    "width": 782,
+    "height": 388,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/kirochnaya-6-p02-img05-875x396.jpeg",
+    "width": 875,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 2,
+    "path": "public/images/landing/kirochnaya-6-p02-img06.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p02-img06-1139x565.jpeg",
+    "width": 1139,
+    "height": 565,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img01.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img01-1069x960.jpeg",
+    "width": 1069,
+    "height": 960,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img02.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img02-1069x960.jpeg",
+    "width": 1069,
+    "height": 960,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img03.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img03-935x841.jpeg",
+    "width": 935,
+    "height": 841,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img04.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img04-962x864.jpeg",
+    "width": 962,
+    "height": 864,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img05.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img05-802x720.jpeg",
+    "width": 802,
+    "height": 720,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img06.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img06-720x649.jpeg",
+    "width": 720,
+    "height": 649,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img07.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img07-1270x1142.jpeg",
+    "width": 1270,
+    "height": 1142,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img08.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img08-1152x1037.jpeg",
+    "width": 1152,
+    "height": 1037,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img09.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img09-1058x952.jpeg",
+    "width": 1058,
+    "height": 952,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img10.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img10-1058x952.jpeg",
+    "width": 1058,
+    "height": 952,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img11.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img11-1122x1008.jpeg",
+    "width": 1122,
+    "height": 1008,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img12.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img12-1123x1008.jpeg",
+    "width": 1123,
+    "height": 1008,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "source/extracted/raw-images/kirochnaya-6-p03-img13-401x231.jpeg",
+    "width": 401,
+    "height": 231,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 3,
+    "path": "public/images/landing/kirochnaya-6-p03-img14.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p03-img14-3602x843.jpeg",
+    "width": 3602,
+    "height": 843,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "public/images/landing/kirochnaya-6-p04-img05.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p04-img05-1133x1020.jpeg",
+    "width": 1133,
+    "height": 1020,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "public/images/landing/kirochnaya-6-p04-img06.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p04-img06-1152x1038.jpeg",
+    "width": 1152,
+    "height": 1038,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "public/images/landing/kirochnaya-6-p04-img07.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p04-img07-1270x1142.jpeg",
+    "width": 1270,
+    "height": 1142,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "public/images/landing/kirochnaya-6-p04-img08.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p04-img08-1254x1128.jpeg",
+    "width": 1254,
+    "height": 1128,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "public/images/landing/kirochnaya-6-p04-img09.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p04-img09-1058x952.jpeg",
+    "width": 1058,
+    "height": 952,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "public/images/landing/kirochnaya-6-p04-img10.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p04-img10-1058x952.jpeg",
+    "width": 1058,
+    "height": 952,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "public/images/landing/kirochnaya-6-p04-img11.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p04-img11-1122x1008.jpeg",
+    "width": 1122,
+    "height": 1008,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 4,
+    "path": "public/images/landing/kirochnaya-6-p04-img12.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p04-img12-1123x1008.jpeg",
+    "width": 1123,
+    "height": 1008,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 5,
+    "path": "public/images/landing/kirochnaya-6-p05-img01.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p05-img01-786x1280.jpeg",
+    "width": 786,
+    "height": 1280,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 5,
+    "path": "source/extracted/raw-images/kirochnaya-6-p05-img02-402x237.jpeg",
+    "width": 402,
+    "height": 237,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 5,
+    "path": "public/images/landing/kirochnaya-6-p05-img03.webp",
+    "rawPath": "source/extracted/raw-images/kirochnaya-6-p05-img03-2149x1189.jpeg",
+    "width": 2149,
+    "height": 1189,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Кирочная 6.pdf",
+    "page": 5,
+    "path": "source/extracted/raw-images/kirochnaya-6-p05-img04-1506x168.jpeg",
+    "width": 1506,
+    "height": 168,
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 1,
+    "path": "source/extracted/page-renders/komendantskii-55k1-page-01.webp",
+    "public": false
+  },
+  {
+    "kind": "cover",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 1,
+    "path": "public/images/landing/komendantskii-55k1-cover.webp",
+    "public": true
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 2,
+    "path": "source/extracted/page-renders/komendantskii-55k1-page-02.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 3,
+    "path": "source/extracted/page-renders/komendantskii-55k1-page-03.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 4,
+    "path": "source/extracted/page-renders/komendantskii-55k1-page-04.webp",
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 1,
+    "path": "public/images/landing/komendantskii-55k1-p01-img01.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-55k1-p01-img01-1136x1277.jpeg",
+    "width": 1136,
+    "height": 1277,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 1,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p01-img02-402x402.jpeg",
+    "width": 402,
+    "height": 402,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 2,
+    "path": "public/images/landing/komendantskii-55k1-p02-img01.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-55k1-p02-img01-1250x600.jpeg",
+    "width": 1250,
+    "height": 600,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p02-img02-622x814.jpeg",
+    "width": 622,
+    "height": 814,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p02-img03-675x815.jpeg",
+    "width": 675,
+    "height": 815,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p02-img04-352x214.jpeg",
+    "width": 352,
+    "height": 214,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p02-img05-817x396.jpeg",
+    "width": 817,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p02-img06-798x396.jpeg",
+    "width": 798,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p02-img07-875x396.jpeg",
+    "width": 875,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/komendantskii-55k1-p03-img01.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-55k1-p03-img01-768x1024.jpeg",
+    "width": 768,
+    "height": 1024,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/komendantskii-55k1-p03-img02.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-55k1-p03-img02-768x1024.jpeg",
+    "width": 768,
+    "height": 1024,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/komendantskii-55k1-p03-img03.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-55k1-p03-img03-768x1024.jpeg",
+    "width": 768,
+    "height": 1024,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 3,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p03-img04-401x231.jpeg",
+    "width": 401,
+    "height": 231,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/komendantskii-55k1-p03-img05.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-55k1-p03-img05-3602x843.jpeg",
+    "width": 3602,
+    "height": 843,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 4,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p04-img01-562x1180.jpeg",
+    "width": 562,
+    "height": 1180,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 4,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p04-img02-402x237.jpeg",
+    "width": 402,
+    "height": 237,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 4,
+    "path": "public/images/landing/komendantskii-55k1-p04-img03.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-55k1-p04-img03-2149x1189.jpeg",
+    "width": 2149,
+    "height": 1189,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 55к1.pdf",
+    "page": 4,
+    "path": "source/extracted/raw-images/komendantskii-55k1-p04-img04-1506x168.jpeg",
+    "width": 1506,
+    "height": 168,
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 1,
+    "path": "source/extracted/page-renders/komendantskii-59k1-page-01.webp",
+    "public": false
+  },
+  {
+    "kind": "cover",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 1,
+    "path": "public/images/landing/komendantskii-59k1-cover.webp",
+    "public": true
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 2,
+    "path": "source/extracted/page-renders/komendantskii-59k1-page-02.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 3,
+    "path": "source/extracted/page-renders/komendantskii-59k1-page-03.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 4,
+    "path": "source/extracted/page-renders/komendantskii-59k1-page-04.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 5,
+    "path": "source/extracted/page-renders/komendantskii-59k1-page-05.webp",
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 1,
+    "path": "public/images/landing/komendantskii-59k1-p01-img01.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p01-img01-1152x1297.jpeg",
+    "width": 1152,
+    "height": 1297,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 1,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p01-img02-402x402.jpeg",
+    "width": 402,
+    "height": 402,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 2,
+    "path": "public/images/landing/komendantskii-59k1-p02-img01.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p02-img01-1250x600.jpeg",
+    "width": 1250,
+    "height": 600,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p02-img02-617x815.jpeg",
+    "width": 617,
+    "height": 815,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 2,
+    "path": "public/images/landing/komendantskii-59k1-p02-img03.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p02-img03-867x765.jpeg",
+    "width": 867,
+    "height": 765,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p02-img04-352x214.jpeg",
+    "width": 352,
+    "height": 214,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p02-img05-817x396.jpeg",
+    "width": 817,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p02-img06-798x396.jpeg",
+    "width": 798,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p02-img07-875x396.jpeg",
+    "width": 875,
+    "height": 396,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/komendantskii-59k1-p03-img01.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p03-img01-1069x960.jpeg",
+    "width": 1069,
+    "height": 960,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/komendantskii-59k1-p03-img02.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p03-img02-1069x960.jpeg",
+    "width": 1069,
+    "height": 960,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 3,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p03-img03-401x231.jpeg",
+    "width": 401,
+    "height": 231,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/komendantskii-59k1-p03-img04.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p03-img04-3602x843.jpeg",
+    "width": 3602,
+    "height": 843,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 4,
+    "path": "public/images/landing/komendantskii-59k1-p04-img03.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p04-img03-1267x1138.jpeg",
+    "width": 1267,
+    "height": 1138,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 4,
+    "path": "public/images/landing/komendantskii-59k1-p04-img04.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p04-img04-1152x1037.jpeg",
+    "width": 1152,
+    "height": 1037,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 5,
+    "path": "public/images/landing/komendantskii-59k1-p05-img01.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p05-img01-815x864.jpeg",
+    "width": 815,
+    "height": 864,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 5,
+    "path": "public/images/landing/komendantskii-59k1-p05-img02.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p05-img02-1000x656.jpeg",
+    "width": 1000,
+    "height": 656,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 5,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p05-img03-402x237.jpeg",
+    "width": 402,
+    "height": 237,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 5,
+    "path": "public/images/landing/komendantskii-59k1-p05-img04.webp",
+    "rawPath": "source/extracted/raw-images/komendantskii-59k1-p05-img04-2149x1189.jpeg",
+    "width": 2149,
+    "height": 1189,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Комендантский 59к1.pdf",
+    "page": 5,
+    "path": "source/extracted/raw-images/komendantskii-59k1-p05-img05-1506x168.jpeg",
+    "width": 1506,
+    "height": 168,
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 1,
+    "path": "source/extracted/page-renders/parfe-novskaya-9k1-page-01.webp",
+    "public": false
+  },
+  {
+    "kind": "cover",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 1,
+    "path": "public/images/landing/parfe-novskaya-9k1-cover.webp",
+    "public": true
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 2,
+    "path": "source/extracted/page-renders/parfe-novskaya-9k1-page-02.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 3,
+    "path": "source/extracted/page-renders/parfe-novskaya-9k1-page-03.webp",
+    "public": false
+  },
+  {
+    "kind": "page-render",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 4,
+    "path": "source/extracted/page-renders/parfe-novskaya-9k1-page-04.webp",
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 1,
+    "path": "public/images/landing/parfe-novskaya-9k1-p01-img01.webp",
+    "rawPath": "source/extracted/raw-images/parfe-novskaya-9k1-p01-img01-1349x1518.jpeg",
+    "width": 1349,
+    "height": 1518,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 1,
+    "path": "source/extracted/raw-images/parfe-novskaya-9k1-p01-img02-486x486.jpeg",
+    "width": 486,
+    "height": 486,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/parfe-novskaya-9k1-p02-img01-502x304.jpeg",
+    "width": 502,
+    "height": 304,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 2,
+    "path": "source/extracted/raw-images/parfe-novskaya-9k1-p02-img02-544x637.jpeg",
+    "width": 544,
+    "height": 637,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 2,
+    "path": "public/images/landing/parfe-novskaya-9k1-p02-img03.webp",
+    "rawPath": "source/extracted/raw-images/parfe-novskaya-9k1-p02-img03-814x843.jpeg",
+    "width": 814,
+    "height": 843,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 2,
+    "path": "public/images/landing/parfe-novskaya-9k1-p02-img04.webp",
+    "rawPath": "source/extracted/raw-images/parfe-novskaya-9k1-p02-img04-1463x884.jpeg",
+    "width": 1463,
+    "height": 884,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/parfe-novskaya-9k1-p03-img02.webp",
+    "rawPath": "source/extracted/raw-images/parfe-novskaya-9k1-p03-img02-834x469.jpeg",
+    "width": 834,
+    "height": 469,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/parfe-novskaya-9k1-p03-img03.webp",
+    "rawPath": "source/extracted/raw-images/parfe-novskaya-9k1-p03-img03-861x469.jpeg",
+    "width": 861,
+    "height": 469,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 3,
+    "path": "source/extracted/raw-images/parfe-novskaya-9k1-p03-img04-418x469.jpeg",
+    "width": 418,
+    "height": 469,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-small",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 3,
+    "path": "source/extracted/raw-images/parfe-novskaya-9k1-p03-img05-441x468.jpeg",
+    "width": 441,
+    "height": 468,
+    "public": false
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 3,
+    "path": "public/images/landing/parfe-novskaya-9k1-p03-img06.webp",
+    "rawPath": "source/extracted/raw-images/parfe-novskaya-9k1-p03-img06-707x468.jpeg",
+    "width": 707,
+    "height": 468,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 4,
+    "path": "public/images/landing/parfe-novskaya-9k1-p04-img02.webp",
+    "rawPath": "source/extracted/raw-images/parfe-novskaya-9k1-p04-img02-1051x654.jpeg",
+    "width": 1051,
+    "height": 654,
+    "public": true
+  },
+  {
+    "kind": "embedded-image-public",
+    "sourcePdf": "source/pdf/Парфёновская 9к1.pdf",
+    "page": 4,
+    "path": "public/images/landing/parfe-novskaya-9k1-p04-img03.webp",
+    "rawPath": "source/extracted/raw-images/parfe-novskaya-9k1-p04-img03-1050x1221.jpeg",
+    "width": 1050,
+    "height": 1221,
+    "public": true
+  }
+]
