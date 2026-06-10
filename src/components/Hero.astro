@@ -25,20 +25,20 @@ const { hero, cta } = Astro.props;
       <dl class="hero__stats" aria-label="Ключевые параметры подборки">
         <div>
           <dt>5</dt>
-          <dd>презентаций</dd>
+          <dd>адресов</dd>
         </div>
         <div>
           <dt>4</dt>
           <dd>района города</dd>
         </div>
         <div>
-          <dt>PDF</dt>
-          <dd>единый файл</dd>
+          <dt>1</dt>
+          <dd>единая подборка</dd>
         </div>
       </dl>
     </div>
 
-    <figure class="hero__media premium-frame">
+    <figure class="hero__media premium-frame premium-frame--photo">
       <img
         src={hero.primaryImage.src}
         alt={hero.primaryImage.alt}
@@ -46,10 +46,6 @@ const { hero, cta } = Astro.props;
         height="720"
         fetchpriority="high"
       />
-      <figcaption>
-        <span>Источник</span>
-        {hero.primaryImage.sourcePdf}
-      </figcaption>
     </figure>
   </div>
 </section>

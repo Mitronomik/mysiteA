@@ -12,19 +12,19 @@ const { images } = Astro.props;
   <div class="container">
     <div class="section-heading section-heading--split">
       <div>
-        <p class="eyebrow">Визуальные материалы</p>
-        <h2 id="gallery-title">Галерея для быстрой клиентской презентации</h2>
+        <p class="eyebrow">Визуальный обзор</p>
+        <h2 id="gallery-title">Фасады, входные группы и интерьеры</h2>
       </div>
       <p>
-        Изображения загружаются лениво и берутся только из уже извлечённых материалов PR 1.
+        Короткая подборка материалов помогает быстро сравнить характер помещений и окружение.
       </p>
     </div>
 
     <div class="gallery__grid">
       {images.map((image, index) => (
-        <figure class:list={["gallery-tile", index === 0 && "gallery-tile--wide"]}>
+        <figure class:list={["gallery-tile", index === 0 && "gallery-tile--wide", image.role === "plan" && "gallery-tile--contain"]}>
           <img src={image.src} alt={image.alt} width="760" height="520" loading="lazy" />
-          <figcaption>{image.sourcePdf}</figcaption>
+          {image.caption && <figcaption>{image.caption}</figcaption>}
         </figure>
       ))}
     </div>

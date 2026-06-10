@@ -11,11 +11,10 @@ const { sections } = Astro.props;
 <section class="section-pad presentations" aria-labelledby="presentations-title">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">Объекты из презентаций</p>
-      <h2 id="presentations-title">Пять адресов в едином визуальном маршруте</h2>
+      <p class="eyebrow">Подборка помещений</p>
+      <h2 id="presentations-title">Адреса для разных коммерческих сценариев</h2>
       <p>
-        Блоки используют подтверждённый контент из подготовленного файла <code>landing.ts</code>:
-        адрес, район, метро и аккуратное описание без цен и неподтверждённых условий.
+        Каждый объект представлен коротко: район, ближайшее метро, визуальный образ и базовые параметры для первичного выбора.
       </p>
     </div>
 
@@ -23,7 +22,7 @@ const { sections } = Astro.props;
       {sections.map((section, index) => (
         <article class:list={["presentation-card", index % 2 === 1 && "presentation-card--reverse"]} id={section.id}>
           {section.image && (
-            <figure class="presentation-card__media premium-frame">
+            <figure class:list={["presentation-card__media", "premium-frame", section.image.role === "plan" ? "premium-frame--contain" : "premium-frame--photo"]}>
               <img
                 src={section.image.src}
                 alt={section.image.alt}
@@ -31,10 +30,6 @@ const { sections } = Astro.props;
                 height="620"
                 loading="lazy"
               />
-              <figcaption>
-                <span>PDF</span>
-                {section.image.sourcePdf}
-              </figcaption>
             </figure>
           )}
 
@@ -42,7 +37,7 @@ const { sections } = Astro.props;
             <p class="eyebrow">{section.eyebrow}</p>
             <h3>{section.title}</h3>
             <p class="presentation-card__summary">{section.summary}</p>
-            <ul class="fact-list" aria-label={`Подтверждённые факты: ${section.title}`}>
+            <ul class="fact-list" aria-label={`Ключевые параметры: ${section.title}`}>
               {section.facts.map((fact) => <li>{fact}</li>)}
             </ul>
           </div>

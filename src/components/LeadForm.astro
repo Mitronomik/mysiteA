@@ -2,10 +2,9 @@
   <div class="container lead__grid">
     <div class="lead__copy">
       <p class="eyebrow">Заявка на консультацию</p>
-      <h2 id="lead-form-title">Оставьте контакты для обсуждения подходящего помещения</h2>
+      <h2 id="lead-form-title">Оставьте контакты для обсуждения помещения</h2>
       <p>
-        Это визуальный макет формы для PR 2. Отправка, PHP‑обработчик, honeypot, серверная
-        валидация и SMTP будут реализованы отдельно в PR 3.
+        Форма подготовлена как визуальный макет. Отправка заявки и проверка полей будут подключены на следующем этапе.
       </p>
     </div>
 
@@ -27,26 +26,26 @@
 
       <button class="button button--primary button--full" type="button">Отправить заявку</button>
 
-      <div class="mock-state-list" aria-label="Превью будущих состояний формы">
+      <div class="mock-state-list" aria-label="Пример будущих состояний формы">
         <div class="mock-state mock-state--success" aria-live="polite">
           <span class="mock-state__icon" aria-hidden="true">✓</span>
           <p>
-            <strong>Success preview</strong>
-            Заявка будет отправлена. В PR 3 здесь появится подтверждение после успешной отправки.
+            <strong>Пример подтверждения</strong>
+            Заявка будет отправлена. Здесь появится сообщение после успешной отправки.
           </p>
         </div>
 
         <div class="mock-state mock-state--error" aria-live="polite">
           <span class="mock-state__icon" aria-hidden="true">!</span>
           <p>
-            <strong>Error preview</strong>
-            Проверьте поля. В PR 3 здесь появится сообщение об ошибке валидации или отправки.
+            <strong>Пример ошибки</strong>
+            Проверьте поля. Здесь появится сообщение об ошибке валидации или отправки.
           </p>
         </div>
       </div>
 
       <p class="form-note" id="lead-form-note">
-        Форма пока не отправляет данные и не подключена к backend; состояния выше — статичный UI‑макет для PR 2.
+        Сейчас форма не отправляет данные и показана только как часть визуального макета.
       </p>
     </form>
   </div>
