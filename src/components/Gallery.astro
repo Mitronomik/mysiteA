@@ -1,0 +1,32 @@
+---
+import type { LandingImage } from "../content/landing";
+
+interface Props {
+  images: LandingImage[];
+}
+
+const { images } = Astro.props;
+---
+
+<section class="section-pad gallery" aria-labelledby="gallery-title">
+  <div class="container">
+    <div class="section-heading section-heading--split section-heading--wide">
+      <div>
+        <p class="eyebrow">Визуальный обзор</p>
+        <h2 id="gallery-title">Фото и планы по объектам</h2>
+      </div>
+      <p>
+        Каждая подпись привязана к адресу, чтобы быстрее сопоставить фасады, входные группы, интерьерные виды и планировки.
+      </p>
+    </div>
+
+    <div class="gallery__grid">
+      {images.map((image) => (
+        <figure class:list={["gallery-tile", image.role === "plan" && "gallery-tile--contain"]}>
+          <img src={image.src} alt={image.alt} width="760" height="520" loading="lazy" />
+          {image.caption && <figcaption>{image.caption}</figcaption>}
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,30 @@
+---
+import type { landingContent } from "../content/landing";
+
+type Benefit = typeof landingContent.benefits[number];
+
+interface Props {
+  benefits: Benefit[];
+}
+
+const { benefits } = Astro.props;
+---
+
+<section class="section-pad benefits" aria-labelledby="benefits-title">
+  <div class="container">
+    <div class="section-heading section-heading--wide section-heading--compact">
+      <p class="eyebrow">Что в подборке</p>
+      <h2 id="benefits-title">Преимущества для арендатора</h2>
+    </div>
+
+    <div class="benefits__grid">
+      {benefits.map((benefit, index) => (
+        <article class="benefit-card">
+          <span class="benefit-card__number">0{index + 1}</span>
+          <h3>{benefit.title}</h3>
+          <p>{benefit.text}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
