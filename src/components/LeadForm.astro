@@ -1,0 +1,34 @@
+<section class="section-pad lead" aria-labelledby="lead-form-title">
+  <div class="container lead__grid">
+    <div class="lead__copy">
+      <p class="eyebrow">Заявка на консультацию</p>
+      <h2 id="lead-form-title">Оставьте контакты для обсуждения подходящего помещения</h2>
+      <p>
+        Это визуальный макет формы для PR 2. Отправка, PHP‑обработчик, honeypot, серверная
+        валидация и SMTP будут реализованы отдельно в PR 3.
+      </p>
+    </div>
+
+    <form class="lead-form" id="lead-form" aria-describedby="lead-form-note">
+      <div class="form-field">
+        <label for="lead-name">Имя</label>
+        <input id="lead-name" name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться" />
+      </div>
+
+      <div class="form-field">
+        <label for="lead-phone">Телефон</label>
+        <input id="lead-phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 ___ ___-__-__" />
+      </div>
+
+      <label class="checkbox-field" for="lead-consent">
+        <input id="lead-consent" name="consent" type="checkbox" />
+        <span>Согласен(на) на обратную связь по указанному номеру</span>
+      </label>
+
+      <button class="button button--primary button--full" type="button">Отправить заявку</button>
+      <p class="form-note" id="lead-form-note">
+        Форма пока не отправляет данные и не подключена к backend.
+      </p>
+    </form>
+  </div>
+</section>

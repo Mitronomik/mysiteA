@@ -1,0 +1,53 @@
+---
+import type { LandingSection } from "../content/landing";
+
+interface Props {
+  sections: LandingSection[];
+}
+
+const { sections } = Astro.props;
+---
+
+<section class="section-pad presentations" aria-labelledby="presentations-title">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Объекты из презентаций</p>
+      <h2 id="presentations-title">Пять адресов в едином визуальном маршруте</h2>
+      <p>
+        Блоки используют подтверждённый контент из подготовленного файла <code>landing.ts</code>:
+        адрес, район, метро и аккуратное описание без цен и неподтверждённых условий.
+      </p>
+    </div>
+
+    <div class="presentation-list">
+      {sections.map((section, index) => (
+        <article class:list={["presentation-card", index % 2 === 1 && "presentation-card--reverse"]} id={section.id}>
+          {section.image && (
+            <figure class="presentation-card__media premium-frame">
+              <img
+                src={section.image.src}
+                alt={section.image.alt}
+                width="920"
+                height="620"
+                loading="lazy"
+              />
+              <figcaption>
+                <span>PDF</span>
+                {section.image.sourcePdf}
+              </figcaption>
+            </figure>
+          )}
+
+          <div class="presentation-card__body">
+            <p class="eyebrow">{section.eyebrow}</p>
+            <h3>{section.title}</h3>
+            <p class="presentation-card__summary">{section.summary}</p>
+            <ul class="fact-list" aria-label={`Подтверждённые факты: ${section.title}`}>
+              {section.facts.map((fact) => <li>{fact}</li>)}
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

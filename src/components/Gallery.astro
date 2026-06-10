@@ -1,0 +1,32 @@
+---
+import type { LandingImage } from "../content/landing";
+
+interface Props {
+  images: LandingImage[];
+}
+
+const { images } = Astro.props;
+---
+
+<section class="section-pad gallery" aria-labelledby="gallery-title">
+  <div class="container">
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="eyebrow">Визуальные материалы</p>
+        <h2 id="gallery-title">Галерея для быстрой клиентской презентации</h2>
+      </div>
+      <p>
+        Изображения загружаются лениво и берутся только из уже извлечённых материалов PR 1.
+      </p>
+    </div>
+
+    <div class="gallery__grid">
+      {images.map((image, index) => (
+        <figure class:list={["gallery-tile", index === 0 && "gallery-tile--wide"]}>
+          <img src={image.src} alt={image.alt} width="760" height="520" loading="lazy" />
+          <figcaption>{image.sourcePdf}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>

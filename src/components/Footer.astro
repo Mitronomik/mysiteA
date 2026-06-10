@@ -1,0 +1,36 @@
+---
+import type { landingContent } from "../content/landing";
+
+type CtaContent = typeof landingContent.cta;
+
+interface Props {
+  cta: CtaContent;
+}
+
+const { cta } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div>
+      <a class="footer-brand" href="#hero-title" aria-label="FIRST LINE, перейти в начало страницы">FIRST LINE</a>
+      <p>Визуальный MVP лендинга коммерческой недвижимости на основе пяти исходных презентаций.</p>
+    </div>
+
+    <address class="footer-contacts">
+      <strong>Контакты</strong>
+      <span>Телефон и email будут добавлены после подтверждения контактных данных.</span>
+      <span>Санкт-Петербург</span>
+    </address>
+
+    <div class="footer-links">
+      <strong>Материалы</strong>
+      <a href={cta.presentationUrl}>{cta.actionLabel}</a>
+    </div>
+  </div>
+  <div class="container site-footer__bottom">
+    <span>© {year} FIRST LINE</span>
+    <span>Static landing MVP · PR 2</span>
+  </div>
+</footer>
