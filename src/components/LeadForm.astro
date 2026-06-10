@@ -4,11 +4,11 @@
       <p class="eyebrow">Заявка на консультацию</p>
       <h2 id="lead-form-title">Оставьте контакты для обсуждения помещения</h2>
       <p>
-        Форма подготовлена как визуальный макет. Отправка заявки и проверка полей будут подключены на следующем этапе.
+        Оставьте контакты — мы уточним интересующий адрес и подскажем, какие материалы посмотреть в первую очередь.
       </p>
     </div>
 
-    <form class="lead-form" id="lead-form" aria-describedby="lead-form-note">
+    <form class="lead-form" id="lead-form">
       <div class="form-field">
         <label for="lead-name">Имя</label>
         <input id="lead-name" name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться" />
@@ -21,32 +21,22 @@
 
       <label class="checkbox-field" for="lead-consent">
         <input id="lead-consent" name="consent" type="checkbox" />
-        <span>Согласен(на) на обратную связь по указанному номеру</span>
+        <span>Согласен(на) на обратную связь по указанному номеру.</span>
       </label>
 
-      <button class="button button--primary button--full" type="button">Отправить заявку</button>
+      <button class="button button--primary button--full" type="button">Получить консультацию</button>
 
-      <div class="mock-state-list" aria-label="Пример будущих состояний формы">
-        <div class="mock-state mock-state--success" aria-live="polite">
-          <span class="mock-state__icon" aria-hidden="true">✓</span>
-          <p>
-            <strong>Пример подтверждения</strong>
-            Заявка будет отправлена. Здесь появится сообщение после успешной отправки.
-          </p>
+      <div class="form-state-list" aria-live="polite">
+        <div class="form-state form-state--success" hidden>
+          <span class="form-state__icon" aria-hidden="true">✓</span>
+          <p>Спасибо, заявка подготовлена. Мы свяжемся с вами для уточнения деталей.</p>
         </div>
 
-        <div class="mock-state mock-state--error" aria-live="polite">
-          <span class="mock-state__icon" aria-hidden="true">!</span>
-          <p>
-            <strong>Пример ошибки</strong>
-            Проверьте поля. Здесь появится сообщение об ошибке валидации или отправки.
-          </p>
+        <div class="form-state form-state--error" hidden>
+          <span class="form-state__icon" aria-hidden="true">!</span>
+          <p>Проверьте имя и телефон перед отправкой.</p>
         </div>
       </div>
-
-      <p class="form-note" id="lead-form-note">
-        Сейчас форма не отправляет данные и показана только как часть визуального макета.
-      </p>
     </form>
   </div>
 </section>

@@ -510,13 +510,13 @@ input:focus-visible {
   accent-color: var(--color-accent-dark);
 }
 
-.mock-state-list {
+.form-state-list {
   display: grid;
   gap: 0.6rem;
   margin-top: 0.05rem;
 }
 
-.mock-state {
+.form-state {
   display: grid;
   grid-template-columns: 1.75rem 1fr;
   gap: 0.65rem;
@@ -527,15 +527,19 @@ input:focus-visible {
   background: rgba(255, 250, 242, 0.68);
 }
 
-.mock-state--success {
+.form-state[hidden] {
+  display: none;
+}
+
+.form-state--success {
   border-color: rgba(80, 118, 84, 0.22);
 }
 
-.mock-state--error {
+.form-state--error {
   border-color: rgba(155, 106, 60, 0.26);
 }
 
-.mock-state__icon {
+.form-state__icon {
   display: inline-flex;
   width: 1.75rem;
   height: 1.75rem;
@@ -546,24 +550,24 @@ input:focus-visible {
   line-height: 1;
 }
 
-.mock-state--success .mock-state__icon {
+.form-state--success .form-state__icon {
   background: rgba(80, 118, 84, 0.13);
   color: #507654;
 }
 
-.mock-state--error .mock-state__icon {
+.form-state--error .form-state__icon {
   background: rgba(155, 106, 60, 0.13);
   color: var(--color-accent-dark);
 }
 
-.mock-state p {
+.form-state p {
   margin: 0;
   color: #4b443c;
   font-size: 0.84rem;
   line-height: 1.42;
 }
 
-.mock-state strong {
+.form-state strong {
   display: block;
   margin-bottom: 0.12rem;
   color: var(--color-ink);
