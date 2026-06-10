@@ -19,8 +19,8 @@ const { sections } = Astro.props;
     </div>
 
     <div class="presentation-list">
-      {sections.map((section, index) => (
-        <article class:list={["presentation-card", index % 2 === 1 && "presentation-card--reverse"]} id={section.id}>
+      {sections.map((section) => (
+        <article class="presentation-card" id={section.id}>
           {section.image && (
             <figure class:list={["presentation-card__media", "premium-frame", section.image.role === "plan" ? "premium-frame--contain" : "premium-frame--photo"]}>
               <img

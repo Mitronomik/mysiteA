@@ -21,8 +21,8 @@ const { images } = Astro.props;
     </div>
 
     <div class="gallery__grid">
-      {images.map((image, index) => (
-        <figure class:list={["gallery-tile", index === 0 && "gallery-tile--wide", image.role === "plan" && "gallery-tile--contain"]}>
+      {images.map((image) => (
+        <figure class:list={["gallery-tile", image.role === "plan" && "gallery-tile--contain"]}>
           <img src={image.src} alt={image.alt} width="760" height="520" loading="lazy" />
           {image.caption && <figcaption>{image.caption}</figcaption>}
         </figure>
