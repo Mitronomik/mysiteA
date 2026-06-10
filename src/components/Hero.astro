@@ -16,7 +16,10 @@ const { hero, cta } = Astro.props;
   <div class="container hero__grid">
     <div class="hero__content">
       <p class="eyebrow">{hero.eyebrow}</p>
-      <h1 id="hero-title">{hero.title}</h1>
+      <h1 id="hero-title" class="hero__title">
+        <span class="hero__title-line">{hero.titleLine1}</span>
+        <span class="hero__title-line hero__title-line--accent">{hero.titleLine2}</span>
+      </h1>
       <p class="hero__lead">{hero.lead}</p>
       <div class="hero__actions" aria-label="Основные действия">
         <a class="button button--primary" href="#lead-form">Оставить заявку</a>
