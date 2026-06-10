@@ -17,6 +17,11 @@ const { cta } = Astro.props;
         <p class="eyebrow">Обсудить подборку</p>
         <h2 id="cta-title">{cta.title}</h2>
         <p>{cta.text}</p>
+        {cta.conditions && (
+          <ul class="condition-list" aria-label="Коммерческие условия">
+            {cta.conditions.map((condition) => <li>{condition}</li>)}
+          </ul>
+        )}
       </div>
       <div class="cta-panel__actions">
         <a class="button button--light" href="#lead-form">Перейти к форме</a>

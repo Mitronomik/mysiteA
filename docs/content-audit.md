@@ -336,3 +336,84 @@ Text extraction note for PR 2: the presentations are mostly image-based PDF slid
 
 - Whether visible room areas should be summed for an official total area.
 - Exact engineering and lease terms.
+
+## Reference HTML data imported
+
+For the PR 2 commercial landing update, fuller object parameters were imported from the user-provided content reference `first-line-landing.html`. The reference is used only as a content/data source; its HTML structure, inline CSS, inline JavaScript, reveal animations, form handler, external font links and placeholder SVGs are not copied into the Astro implementation.
+
+These imported values are now used in `src/content/landing.ts` for renter-facing object specs such as area, ceiling height, electrical capacity, entrances, finishing, engineering, residential complex and metro context.
+
+Important verification note:
+
+- Some imported values differ from the earlier PDF-visible extraction above. For example, visible plan fragments showed 135.79 m² for `26-я линия ВО 7.pdf`, 102.2 m² for `Комендантский 59к1.pdf`, and partial room/zone areas for `Кирочная 6.pdf` and `Парфёновская 9к1.pdf`; the reference HTML provides different final commercial areas for these objects.
+- The reference HTML values should be verified against original commercial source materials before production publication, lease negotiation, advertising placement or legal use.
+- Values that remain absent from both the PDFs and reference HTML should still be treated as unknown and must not be invented.
+
+### Imported values by object
+
+#### 26-я линия В.О., 7
+
+- Площадь: 133,2 м².
+- Высота потолков: 3,5 м.
+- Электрическая мощность: 20 кВт.
+- Входные группы: 2 входа.
+- Отделка: чистовая.
+- Инженерия: вентиляционный канал и приточка.
+- ЖК: «Палацио».
+- Район: Васильевский остров.
+- Метро: Горный институт.
+
+#### Кирочная улица, 6
+
+- Площадь: 156,1 м².
+- Высота потолков: 3,5 м.
+- Электрическая мощность: 15 кВт.
+- Входные группы: 2 входа.
+- Отделка: ремонт от предыдущего арендатора.
+- Инженерия: вентиляционный канал.
+- Район: Центральный.
+- Метро: Чернышевская.
+
+#### Комендантский пр., 55к1
+
+- Площадь: 118,9 м².
+- Высота потолков: 3,5 м.
+- Электрическая мощность: 35 кВт.
+- Входные группы: 2 входа.
+- Отделка: чистовая.
+- Инженерия: вентиляционный канал и приточка.
+- ЖК: «YOGA».
+- Район: Приморский.
+- Метро: Комендантский проспект.
+
+#### Комендантский пр., 59к1
+
+- Площадь: 84 м².
+- Высота потолков: 3,5 м.
+- Электрическая мощность: 25 кВт.
+- Входные группы: 1 вход.
+- Отделка: чистовая.
+- Инженерия: вентиляционный канал и приточка.
+- ЖК: «YOGA».
+- Район: Приморский.
+- Метро: Комендантский проспект.
+
+#### Парфёновская ул., 9к1
+
+- Площадь: 119,5 м².
+- Высота потолков: 3,2 м.
+- Электрическая мощность: 15 кВт.
+- Вход: отдельный.
+- Первая линия / угловое помещение.
+- Витринные окна с двух сторон.
+- 2 мокрые точки.
+- ЖК: «Галактика».
+- Район: Адмиралтейский.
+- Метро: Фрунзенская / Балтийская.
+
+### Imported commercial conditions
+
+- Срок аренды от 11 месяцев.
+- Индексация 7% годовых.
+- Назначение — свободное.
+- Возможность увеличения кВт на ряде объектов.

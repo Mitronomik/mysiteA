@@ -5,6 +5,8 @@ export type SourcePdf =
   | "26-я линия ВО 7.pdf"
   | "Кирочная 6.pdf";
 
+export type LandingSource = SourcePdf | "first-line-landing.html";
+
 export type LandingImage = {
   src: string;
   alt: string;
@@ -16,7 +18,7 @@ export type LandingImage = {
 export type LandingSpec = {
   label: string;
   value: string;
-  sourcePdf: SourcePdf;
+  source: LandingSource;
 };
 
 export type LandingSection = {
@@ -30,6 +32,8 @@ export type LandingSection = {
   highlights: string[];
   ctaLabel: string;
 };
+
+const referenceSource = "first-line-landing.html" as const;
 
 export const landingContent = {
   hero: {
@@ -55,8 +59,8 @@ export const landingContent = {
   },
   benefits: [
     {
-      title: "Сравните несколько адресов за один просмотр",
-      text: "Пять объектов собраны на одной странице: проще быстро отобрать локации, которые стоит обсудить с консультантом.",
+      title: "Первая линия и заметные входные группы",
+      text: "В подборке есть помещения с витринными окнами, отдельными входами и сильной уличной видимостью для клиентского потока.",
       sourcePdfs: [
         "Комендантский 55к1.pdf",
         "Комендантский 59к1.pdf",
@@ -66,8 +70,8 @@ export const landingContent = {
       ] as SourcePdf[],
     },
     {
-      title: "Выберите помещение под формат бизнеса",
-      text: "В карточках видны район, метро, планировочные параметры и особенности фасада — это помогает понять, какой объект подходит под ваш сценарий.",
+      title: "Готовность к запуску бизнеса",
+      text: "Чистовая отделка или ремонт от предыдущего арендатора помогают быстрее оценить сроки открытия и объём доработок.",
       sourcePdfs: [
         "Кирочная 6.pdf",
         "26-я линия ВО 7.pdf",
@@ -77,8 +81,29 @@ export const landingContent = {
       ] as SourcePdf[],
     },
     {
-      title: "Получите материалы для быстрой оценки",
-      text: "Оставьте контакт — подскажем, какие фото, планы и детали по выбранному адресу посмотреть в первую очередь.",
+      title: "Заселённые жилые комплексы",
+      text: "Объекты в ЖК «Палацио», «YOGA» и «Галактика» подходят для сервисов, ритейла и повседневных форматов рядом с жильцами.",
+      sourcePdfs: [
+        "Комендантский 55к1.pdf",
+        "Комендантский 59к1.pdf",
+        "Парфёновская 9к1.pdf",
+        "26-я линия ВО 7.pdf",
+      ] as SourcePdf[],
+    },
+    {
+      title: "Разные районы под разные форматы",
+      text: "Центр, Васильевский остров, Приморский и Адмиралтейский районы дают разные сценарии для кафе, услуг, шоурума или офиса продаж.",
+      sourcePdfs: [
+        "Кирочная 6.pdf",
+        "26-я линия ВО 7.pdf",
+        "Комендантский 55к1.pdf",
+        "Комендантский 59к1.pdf",
+        "Парфёновская 9к1.pdf",
+      ] as SourcePdf[],
+    },
+    {
+      title: "Сопровождение выбора и сделки",
+      text: "Поможем сравнить площади, мощность, входные группы и инженерные параметры, а затем запросить условия по выбранному адресу.",
       sourcePdfs: [
         "Комендантский 55к1.pdf",
         "Комендантский 59к1.pdf",
@@ -90,36 +115,10 @@ export const landingContent = {
   ],
   sections: [
     {
-      id: "kirochnaya-6",
-      eyebrow: "Центральный район · метро Чернышевская",
-      title: "Кирочная 6",
-      summary: "Помещение в исторической городской среде с выразительным каменным фасадом, уличной входной группой и планом с несколькими залами.",
-      sourcePdfs: ["Кирочная 6.pdf"],
-      image: {
-        src: "/images/landing/kirochnaya-6-p01-img02.webp",
-        alt: "Фасад здания на Кирочной 6",
-        sourcePdf: "Кирочная 6.pdf",
-        role: "exterior",
-      },
-      specs: [
-        { label: "Адрес", value: "Кирочная 6", sourcePdf: "Кирочная 6.pdf" },
-        { label: "Район", value: "Центральный", sourcePdf: "Кирочная 6.pdf" },
-        { label: "Метро", value: "Чернышевская", sourcePdf: "Кирочная 6.pdf" },
-        { label: "Высота", value: "h = 3,35 по плану", sourcePdf: "Кирочная 6.pdf" },
-        { label: "План", value: "залы 45,2 / 44,6 / 25,0 м² на плане", sourcePdf: "Кирочная 6.pdf" },
-      ],
-      highlights: [
-        "Исторический фасад и уличный вход",
-        "Несколько помещений разного размера по плану",
-        "Визуальные материалы по фасаду, интерьеру и планировке",
-      ],
-      ctaLabel: "Запросить детали по Кирочной 6",
-    },
-    {
       id: "26-ya-liniya-vo-7",
-      eyebrow: "Василеостровский район · метро Горный институт",
-      title: "26-я линия ВО 7",
-      summary: "Коммерческое помещение на Васильевском острове с открытой планировочной зоной, витринным остеклением и отдельными вспомогательными помещениями по плану.",
+      eyebrow: "ЖК «Палацио» · Васильевский остров · метро Горный институт",
+      title: "26-я линия В.О., 7",
+      summary: "Готовое помещение в жилом комплексе «Палацио» с двумя входами, чистовой отделкой, приточной инженерией и мощностью для разных форматов бизнеса.",
       sourcePdfs: ["26-я линия ВО 7.pdf"],
       image: {
         src: "/images/landing/26-ya-liniya-vo-7-p03-img01.webp",
@@ -128,24 +127,56 @@ export const landingContent = {
         role: "interior",
       },
       specs: [
-        { label: "Адрес", value: "26-я линия ВО 7", sourcePdf: "26-я линия ВО 7.pdf" },
-        { label: "Район", value: "Василеостровский", sourcePdf: "26-я линия ВО 7.pdf" },
-        { label: "Метро", value: "Горный институт", sourcePdf: "26-я линия ВО 7.pdf" },
-        { label: "Площадь", value: "135,79 м² по плану", sourcePdf: "26-я линия ВО 7.pdf" },
-        { label: "Основной зал", value: "129,36 м² по плану", sourcePdf: "26-я линия ВО 7.pdf" },
+        { label: "Площадь", value: "133,2 м²", source: referenceSource },
+        { label: "Потолки", value: "3,5 м", source: referenceSource },
+        { label: "Мощность", value: "20 кВт", source: referenceSource },
+        { label: "Вход", value: "2 входа", source: referenceSource },
+        { label: "Отделка", value: "чистовая", source: referenceSource },
+        { label: "Инженерия", value: "вентканал и приточка", source: referenceSource },
+        { label: "ЖК", value: "«Палацио»", source: referenceSource },
+        { label: "Метро", value: "Горный институт", source: referenceSource },
       ],
       highlights: [
-        "Витринное остекление и входная зона видны на материалах",
-        "Крупный основной зал с небольшой вспомогательной зоной",
-        "Есть фото интерьера и планировочный фрагмент",
+        "Два входа для разделения потоков посетителей и персонала",
+        "Чистовая отделка для более быстрого запуска",
+        "Подходит для услуг, торговли, шоурума или клиентского офиса",
       ],
-      ctaLabel: "Запросить детали по 26-й линии ВО 7",
+      ctaLabel: "Запросить детали",
+    },
+    {
+      id: "kirochnaya-6",
+      eyebrow: "Центральный район · метро Чернышевская",
+      title: "Кирочная улица, 6",
+      summary: "Помещение в историческом центре с выразительным фасадом, двумя входами, потолками 3,5 м и ремонтом от предыдущего арендатора.",
+      sourcePdfs: ["Кирочная 6.pdf"],
+      image: {
+        src: "/images/landing/kirochnaya-6-p01-img02.webp",
+        alt: "Фасад здания на Кирочной 6",
+        sourcePdf: "Кирочная 6.pdf",
+        role: "exterior",
+      },
+      specs: [
+        { label: "Площадь", value: "156,1 м²", source: referenceSource },
+        { label: "Потолки", value: "3,5 м", source: referenceSource },
+        { label: "Мощность", value: "15 кВт", source: referenceSource },
+        { label: "Вход", value: "2 входа", source: referenceSource },
+        { label: "Отделка", value: "ремонт от арендатора", source: referenceSource },
+        { label: "Инженерия", value: "вентиляционный канал", source: referenceSource },
+        { label: "Район", value: "Центральный", source: referenceSource },
+        { label: "Метро", value: "Чернышевская", source: referenceSource },
+      ],
+      highlights: [
+        "Исторический центр и узнаваемый фасад",
+        "Два входа для гибкой организации помещения",
+        "Ремонт от предыдущего арендатора снижает стартовый объём работ",
+      ],
+      ctaLabel: "Запросить детали",
     },
     {
       id: "komendantskii-55k1",
-      eyebrow: "Приморский район · метро Комендантский проспект",
-      title: "Комендантский пр. 55к1",
-      summary: "Помещение в крупном жилом массиве Приморского района с фасадной коммерцией на первом уровне и фото интерьера с витринными окнами.",
+      eyebrow: "ЖК «YOGA» · Приморский район · метро Комендантский проспект",
+      title: "Комендантский пр., 55к1",
+      summary: "Готовое помещение в заселённом жилом комплексе «YOGA» с двумя входами, чистовой отделкой и электрической мощностью 35 кВт.",
       sourcePdfs: ["Комендантский 55к1.pdf"],
       image: {
         src: "/images/landing/komendantskii-55k1-p01-img01.webp",
@@ -154,24 +185,27 @@ export const landingContent = {
         role: "exterior",
       },
       specs: [
-        { label: "Адрес", value: "Комендантский пр. 55к1", sourcePdf: "Комендантский 55к1.pdf" },
-        { label: "Район", value: "Приморский", sourcePdf: "Комендантский 55к1.pdf" },
-        { label: "Метро", value: "Комендантский проспект", sourcePdf: "Комендантский 55к1.pdf" },
-        { label: "Фасад", value: "коммерческий первый уровень", sourcePdf: "Комендантский 55к1.pdf" },
-        { label: "Интерьер", value: "витринные окна и открытый зал на фото", sourcePdf: "Комендантский 55к1.pdf" },
+        { label: "Площадь", value: "118,9 м²", source: referenceSource },
+        { label: "Потолки", value: "3,5 м", source: referenceSource },
+        { label: "Мощность", value: "35 кВт", source: referenceSource },
+        { label: "Вход", value: "2 входа", source: referenceSource },
+        { label: "Отделка", value: "чистовая", source: referenceSource },
+        { label: "Инженерия", value: "вентканал и приточка", source: referenceSource },
+        { label: "ЖК", value: "«YOGA»", source: referenceSource },
+        { label: "Метро", value: "Комендантский проспект", source: referenceSource },
       ],
       highlights: [
-        "Фасадная коммерческая линия в жилом комплексе",
-        "Фото интерьера показывают окна, входную группу и открытую зону",
-        "Подходит для сравнения с соседним объектом на Комендантском проспекте",
+        "Мощность 35 кВт для энергоёмких коммерческих сценариев",
+        "Два входа и чистовая отделка",
+        "Локация в жилом комплексе с повседневным спросом",
       ],
-      ctaLabel: "Запросить детали по Комендантскому 55к1",
+      ctaLabel: "Запросить детали",
     },
     {
       id: "komendantskii-59k1",
-      eyebrow: "Приморский район · метро Комендантский проспект",
-      title: "Комендантский пр. 59к1",
-      summary: "Соседний вариант на Комендантском проспекте с современным фасадом, отдельной входной зоной и планом помещения площадью 102,2 м².",
+      eyebrow: "ЖК «YOGA» · Приморский район · метро Комендантский проспект",
+      title: "Комендантский пр., 59к1",
+      summary: "Компактное готовое помещение в ЖК «YOGA» с чистовой отделкой, отдельным входом, приточной инженерией и мощностью 25 кВт.",
       sourcePdfs: ["Комендантский 59к1.pdf"],
       image: {
         src: "/images/landing/komendantskii-59k1-p05-img02.webp",
@@ -180,24 +214,27 @@ export const landingContent = {
         role: "exterior",
       },
       specs: [
-        { label: "Адрес", value: "Комендантский пр. 59к1", sourcePdf: "Комендантский 59к1.pdf" },
-        { label: "Район", value: "Приморский", sourcePdf: "Комендантский 59к1.pdf" },
-        { label: "Метро", value: "Комендантский проспект", sourcePdf: "Комендантский 59к1.pdf" },
-        { label: "Площадь", value: "102,2 м² по плану", sourcePdf: "Комендантский 59к1.pdf" },
-        { label: "Фронт", value: "фасад с входной группой", sourcePdf: "Комендантский 59к1.pdf" },
+        { label: "Площадь", value: "84 м²", source: referenceSource },
+        { label: "Потолки", value: "3,5 м", source: referenceSource },
+        { label: "Мощность", value: "25 кВт", source: referenceSource },
+        { label: "Вход", value: "1 вход", source: referenceSource },
+        { label: "Отделка", value: "чистовая", source: referenceSource },
+        { label: "Инженерия", value: "вентканал и приточка", source: referenceSource },
+        { label: "ЖК", value: "«YOGA»", source: referenceSource },
+        { label: "Метро", value: "Комендантский проспект", source: referenceSource },
       ],
       highlights: [
-        "План показывает единое помещение 102,2 м²",
-        "На фасадных материалах видны вход и витринная линия",
-        "Можно рассматривать в паре с объектом 55к1",
+        "Компактная площадь для сервиса, ритейла или офиса продаж",
+        "Готовая чистовая отделка и отдельный вход",
+        "Можно сравнить с соседним объектом 55к1 в том же районе",
       ],
-      ctaLabel: "Запросить детали по Комендантскому 59к1",
+      ctaLabel: "Запросить детали",
     },
     {
       id: "parfenovskaya-9k1",
-      eyebrow: "Адмиралтейский район · Фрунзенская / Балтийская / Московские ворота",
-      title: "Парфёновская улица 9 к.1",
-      summary: "Помещение в современной застройке Адмиралтейского района с остеклённой угловой входной группой и крупным основным залом по плану.",
+      eyebrow: "ЖК «Галактика» · Адмиралтейский район · Фрунзенская / Балтийская",
+      title: "Парфёновская ул., 9к1",
+      summary: "Угловое помещение на первой линии в ЖК «Галактика» с витринными окнами с двух сторон, отдельным входом и двумя мокрыми точками.",
       sourcePdfs: ["Парфёновская 9к1.pdf"],
       image: {
         src: "/images/landing/parfe-novskaya-9k1-p01-img01.webp",
@@ -206,18 +243,21 @@ export const landingContent = {
         role: "exterior",
       },
       specs: [
-        { label: "Адрес", value: "Парфёновская улица 9 к.1", sourcePdf: "Парфёновская 9к1.pdf" },
-        { label: "Район", value: "Адмиралтейский", sourcePdf: "Парфёновская 9к1.pdf" },
-        { label: "Метро", value: "Фрунзенская / Балтийская / Московские ворота", sourcePdf: "Парфёновская 9к1.pdf" },
-        { label: "Основной зал", value: "91,3 м² по плану", sourcePdf: "Парфёновская 9к1.pdf" },
-        { label: "План", value: "дополнительные зоны 14,4 и 5,2 м²", sourcePdf: "Парфёновская 9к1.pdf" },
+        { label: "Площадь", value: "119,5 м²", source: referenceSource },
+        { label: "Потолки", value: "3,2 м", source: referenceSource },
+        { label: "Мощность", value: "15 кВт", source: referenceSource },
+        { label: "Вход", value: "отдельный", source: referenceSource },
+        { label: "Витрины", value: "окна с двух сторон", source: referenceSource },
+        { label: "Мокрые точки", value: "2", source: referenceSource },
+        { label: "ЖК", value: "«Галактика»", source: referenceSource },
+        { label: "Метро", value: "Фрунзенская / Балтийская", source: referenceSource },
       ],
       highlights: [
-        "Остеклённая угловая входная группа",
-        "Крупный основной зал и дополнительные зоны по плану",
-        "Есть фасадные, интерьерные и планировочные материалы",
+        "Первая линия и угловое расположение",
+        "Витринные окна с двух сторон усиливают видимость",
+        "Две мокрые точки расширяют варианты использования",
       ],
-      ctaLabel: "Запросить детали по Парфёновской 9 к.1",
+      ctaLabel: "Запросить детали",
     },
   ] satisfies LandingSection[],
   gallery: [
@@ -229,25 +269,18 @@ export const landingContent = {
       caption: "Кирочная 6 · фасад",
     },
     {
-      src: "/images/landing/kirochnaya-6-p05-img01.webp",
-      alt: "План помещения на Кирочной 6",
-      sourcePdf: "Кирочная 6.pdf" as SourcePdf,
-      role: "plan",
-      caption: "Кирочная 6 · планировка",
-    },
-    {
       src: "/images/landing/26-ya-liniya-vo-7-p03-img01.webp",
       alt: "Интерьер помещения на 26-й линии ВО 7",
       sourcePdf: "26-я линия ВО 7.pdf" as SourcePdf,
       role: "interior",
-      caption: "26-я линия ВО 7 · интерьер",
+      caption: "26-я линия В.О. 7 · интерьер",
     },
     {
       src: "/images/landing/26-ya-liniya-vo-7-p05-img01.webp",
       alt: "План помещения на 26-й линии ВО 7",
       sourcePdf: "26-я линия ВО 7.pdf" as SourcePdf,
       role: "plan",
-      caption: "26-я линия ВО 7 · план 135,79 м²",
+      caption: "26-я линия В.О. 7 · планировка",
     },
     {
       src: "/images/landing/komendantskii-55k1-p01-img01.webp",
@@ -264,30 +297,29 @@ export const landingContent = {
       caption: "Комендантский 59к1 · входная группа",
     },
     {
-      src: "/images/landing/komendantskii-59k1-p05-img01.webp",
-      alt: "План помещения на Комендантском проспекте 59к1",
-      sourcePdf: "Комендантский 59к1.pdf" as SourcePdf,
-      role: "plan",
-      caption: "Комендантский 59к1 · план 102,2 м²",
-    },
-    {
       src: "/images/landing/parfe-novskaya-9k1-p01-img01.webp",
       alt: "Угловая входная группа на Парфёновской улице 9 к.1",
       sourcePdf: "Парфёновская 9к1.pdf" as SourcePdf,
       role: "exterior",
-      caption: "Парфёновская 9 к.1 · угловой вход",
+      caption: "Парфёновская 9к1 · угловой вход",
     },
     {
       src: "/images/landing/parfe-novskaya-9k1-p04-img03.webp",
       alt: "План помещения на Парфёновской улице 9 к.1",
       sourcePdf: "Парфёновская 9к1.pdf" as SourcePdf,
       role: "plan",
-      caption: "Парфёновская 9 к.1 · планировка",
+      caption: "Парфёновская 9к1 · планировка",
     },
   ] satisfies LandingImage[],
   cta: {
-    title: "Получить консультацию по подходящему помещению",
-    text: "Оставьте контакты — специалист уточнит интересующий адрес и подскажет, какие материалы посмотреть в первую очередь.",
+    title: "Запросить условия и планировку",
+    text: "Расскажем, какие объекты подходят под ваш формат, уточним актуальные условия и подготовим материалы по выбранным адресам.",
+    conditions: [
+      "Срок аренды от 11 месяцев",
+      "Индексация 7% годовых",
+      "Назначение — свободное",
+      "Возможность увеличения кВт на ряде объектов",
+    ],
     actionLabel: "Скачать объединённую презентацию",
     presentationUrl: "/presentations/full.pdf",
   },
