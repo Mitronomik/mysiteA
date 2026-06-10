@@ -10,11 +10,11 @@ const { sections } = Astro.props;
 
 <section class="section-pad presentations" aria-labelledby="presentations-title">
   <div class="container">
-    <div class="section-heading">
+    <div class="section-heading section-heading--wide">
       <p class="eyebrow">Подборка помещений</p>
-      <h2 id="presentations-title">Адреса для разных коммерческих сценариев</h2>
+      <h2 id="presentations-title">Сравните параметры коммерческих помещений</h2>
       <p>
-        Каждый объект представлен коротко: район, ближайшее метро, визуальный образ и базовые параметры для первичного выбора.
+        В карточках собраны данные, которые удалось подтвердить по презентациям: адрес, метро, планировочные параметры и видимые особенности фасада или входной группы.
       </p>
     </div>
 
@@ -37,9 +37,25 @@ const { sections } = Astro.props;
             <p class="eyebrow">{section.eyebrow}</p>
             <h3>{section.title}</h3>
             <p class="presentation-card__summary">{section.summary}</p>
-            <ul class="fact-list" aria-label={`Ключевые параметры: ${section.title}`}>
-              {section.facts.map((fact) => <li>{fact}</li>)}
-            </ul>
+
+            <dl class="spec-grid" aria-label={`Параметры объекта: ${section.title}`}>
+              {section.specs.map((spec) => (
+                <div class="spec-chip">
+                  <dt>{spec.label}</dt>
+                  <dd>{spec.value}</dd>
+                </div>
+              ))}
+            </dl>
+
+            {section.highlights.length > 0 && (
+              <ul class="highlight-list" aria-label={`Особенности объекта: ${section.title}`}>
+                {section.highlights.map((highlight) => <li>{highlight}</li>)}
+              </ul>
+            )}
+
+            <div class="presentation-card__actions">
+              <a class="button button--primary" href="#lead-form">{section.ctaLabel}</a>
+            </div>
           </div>
         </article>
       ))}

@@ -199,3 +199,140 @@ These items must be treated as follow-up questions. They are intentionally not i
 - `src/pages/index.astro` renders a minimal scaffold/preview only; it is not the final landing UI.
 - `src/styles/global.css` contains basic layout tokens and scaffold styling for buildability.
 - No PDFs or images were created, modified, renamed or deleted as part of PR 1.
+
+## Commercial parameters extracted from PDFs
+
+Text extraction note for PR 2: the presentations are mostly image-based PDF slides. Machine text extraction did not provide a reliable structured text layer, so the parameters below are taken only from visible text on covers, visible plan fragments and visible object imagery already present in the PDFs/assets. Values that were not clearly visible are not shown on the landing.
+
+### `Кирочная 6.pdf`
+
+**Extracted parameters**
+
+- Address: Кирочная 6.
+- District: Центральный.
+- Metro: Чернышевская.
+- Offer format: аренда помещения.
+- Plan/ceiling: plan image shows `h = 3.35`.
+- Plan/areas visible: several rooms are visible on the plan, including 45.2, 44.6 and 25.0 m²; the total rentable area was not clearly confirmed as a single value.
+- Entrance/facade: visible street facade and entrance group in the presentation imagery.
+
+**Parameters not found**
+
+- Confirmed total rentable area.
+- Rental rate and commercial terms.
+- Power capacity.
+- Ventilation details.
+- Wet point/water details.
+- Availability date.
+
+**needs_verification**
+
+- Whether the sum of visible room areas should be used as official rentable area.
+- Exact technical specifications and permitted uses.
+
+### `26-я линия ВО 7.pdf`
+
+**Extracted parameters**
+
+- Address: 26-я линия ВО 7.
+- District: Василеостровский.
+- Metro: Горный институт.
+- Offer format: аренда помещения.
+- Plan/area: plan image shows 135.79 m².
+- Plan/main room: plan image shows 129.36 m² for the main highlighted area.
+- Additional plan zones: 4.28 and 2.15 m² are visible on the plan fragment.
+- Entrance/facade/interior: presentation imagery shows street-level glazing/entrance materials and interior views.
+
+**Parameters not found**
+
+- Rental rate and commercial terms.
+- Ceiling height.
+- Power capacity.
+- Ventilation details.
+- Wet point/water details.
+- Availability date.
+
+**needs_verification**
+
+- Whether 135.79 m² is the official rentable area for offer publication.
+- Exact engineering and lease terms.
+
+### `Комендантский 55к1.pdf`
+
+**Extracted parameters**
+
+- Address: Комендантский пр. 55к1.
+- District: Приморский.
+- Metro: Комендантский проспект.
+- Offer format: аренда помещения.
+- Facade/frontage: imagery shows a commercial first-level frontage in a large residential building.
+- Interior: imagery shows an open commercial room with vitrine/window line and entrance zone.
+
+**Parameters not found**
+
+- Confirmed total rentable area.
+- Rental rate and commercial terms.
+- Floor number as text.
+- Ceiling height.
+- Power capacity.
+- Ventilation details.
+- Wet point/water details.
+- Availability date.
+
+**needs_verification**
+
+- Exact area and technical specifications.
+- Whether first-level frontage can be described as a separate entrance/signage opportunity in commercial copy.
+
+### `Комендантский 59к1.pdf`
+
+**Extracted parameters**
+
+- Address: Комендантский пр. 59к1.
+- District: Приморский.
+- Metro: Комендантский проспект.
+- Offer format: аренда помещения.
+- Plan/area: plan image shows 102.2 m².
+- Facade/frontage: imagery shows a street-level commercial facade with entrance group.
+
+**Parameters not found**
+
+- Rental rate and commercial terms.
+- Ceiling height.
+- Power capacity.
+- Ventilation details.
+- Wet point/water details.
+- Availability date.
+
+**needs_verification**
+
+- Whether 102.2 m² is the official rentable area for publication.
+- Exact engineering and lease terms.
+
+### `Парфёновская 9к1.pdf`
+
+**Extracted parameters**
+
+- Address: Парфёновская улица 9 к.1.
+- District: Адмиралтейский.
+- Metro: Фрунзенская, Балтийская, Московские ворота.
+- Offer format: аренда помещения.
+- Plan/main room: plan image shows 91.3 m².
+- Additional plan zones: 14.4 and 5.2 m² are visible on the plan fragment.
+- Entrance/facade: presentation imagery shows a glazed corner entrance group and modern facade.
+- Interior: presentation imagery includes interior views.
+
+**Parameters not found**
+
+- Confirmed total rentable area.
+- Rental rate and commercial terms.
+- Ceiling height.
+- Power capacity.
+- Ventilation details.
+- Wet point/water details.
+- Availability date.
+
+**needs_verification**
+
+- Whether visible room areas should be summed for an official total area.
+- Exact engineering and lease terms.
