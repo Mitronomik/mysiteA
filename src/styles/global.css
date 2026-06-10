@@ -107,7 +107,7 @@ h1 {
 h2 {
   max-width: 15ch;
   margin-bottom: 1rem;
-  font-size: clamp(2rem, 4.2vw, 3.7rem);
+  font-size: clamp(2rem, 3.4vw, 3.35rem);
 }
 
 h3 {
@@ -217,27 +217,42 @@ input:focus-visible {
 }
 
 .hero__title {
+  position: relative;
   max-width: 100%;
-  margin-bottom: 1.15rem;
-  font-size: clamp(2.65rem, 8.4vw, 4.25rem);
-  line-height: 1.01;
+  margin-bottom: 1.1rem;
+  font-family: var(--font-display);
+  font-size: clamp(3.2rem, 12vw, 4.9rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.96;
 }
 
 .hero__title-line {
   display: block;
 }
 
-.hero__title-line--accent {
+.hero__title-accent {
+  position: relative;
+  display: block;
   width: fit-content;
   max-width: 100%;
-  margin-top: 0.18em;
-  border: 1px solid rgba(155, 106, 60, 0.20);
-  border-radius: 999px;
-  padding: 0.08em 0.24em 0.12em;
-  background: rgba(255, 247, 235, 0.78);
-  box-shadow: 0 12px 32px rgba(92, 64, 35, 0.10);
+  margin-top: 0.04em;
   color: var(--color-accent-dark);
-  letter-spacing: -0.045em;
+  font-family: inherit;
+  letter-spacing: inherit;
+  isolation: isolate;
+}
+
+.hero__title-accent::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -0.04em;
+  bottom: 0.04em;
+  left: -0.03em;
+  height: 0.2em;
+  background: linear-gradient(90deg, rgba(155, 106, 60, 0.10), rgba(216, 185, 142, 0.26));
+  border-bottom: 1px solid rgba(155, 106, 60, 0.22);
 }
 
 .hero__lead {
@@ -694,7 +709,7 @@ input:focus-visible {
   }
 
   .hero__title {
-    font-size: clamp(2.5rem, 4vw, 3.6rem);
+    font-size: clamp(3.25rem, 5.2vw, 4.6rem);
   }
 
   .hero__actions .button:first-child {
@@ -762,23 +777,26 @@ input:focus-visible {
   }
 
   .hero .container {
-    width: min(100% - 4rem, 1280px);
+    width: min(100% - 4rem, 1360px);
   }
 
   .hero__grid {
-    grid-template-columns: minmax(0, 1.25fr) minmax(22rem, 0.75fr);
+    grid-template-columns: minmax(0, 1.55fr) minmax(21rem, 0.7fr);
   }
 
   .hero__title {
-    font-size: clamp(2.85rem, 3.2vw, 4.1rem);
-    line-height: 0.99;
-  }
-
-  .hero__title-line {
-    white-space: nowrap;
+    font-size: clamp(3.8rem, 3.85vw, 4.9rem);
+    line-height: 0.94;
   }
 
   .hero__media {
     aspect-ratio: 1.18 / 1;
+  }
+}
+
+
+@media (min-width: 1360px) {
+  .hero__title-line {
+    white-space: nowrap;
   }
 }
