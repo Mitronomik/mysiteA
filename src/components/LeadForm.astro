@@ -26,8 +26,27 @@
       </label>
 
       <button class="button button--primary button--full" type="button">Отправить заявку</button>
+
+      <div class="mock-state-list" aria-label="Превью будущих состояний формы">
+        <div class="mock-state mock-state--success" aria-live="polite">
+          <span class="mock-state__icon" aria-hidden="true">✓</span>
+          <p>
+            <strong>Success preview</strong>
+            Заявка будет отправлена. В PR 3 здесь появится подтверждение после успешной отправки.
+          </p>
+        </div>
+
+        <div class="mock-state mock-state--error" aria-live="polite">
+          <span class="mock-state__icon" aria-hidden="true">!</span>
+          <p>
+            <strong>Error preview</strong>
+            Проверьте поля. В PR 3 здесь появится сообщение об ошибке валидации или отправки.
+          </p>
+        </div>
+      </div>
+
       <p class="form-note" id="lead-form-note">
-        Форма пока не отправляет данные и не подключена к backend.
+        Форма пока не отправляет данные и не подключена к backend; состояния выше — статичный UI‑макет для PR 2.
       </p>
     </form>
   </div>
