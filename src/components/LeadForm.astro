@@ -23,7 +23,7 @@ const statusScript = `
       </p>
     </div>
 
-    <form class="lead-form" id="lead-form" action="/lead.php" method="POST" novalidate>
+    <form class="lead-form" id="lead-form" action="/lead.php" method="POST">
       <div class="form-field">
         <label for="lead-name">Имя</label>
         <input
@@ -66,8 +66,7 @@ const statusScript = `
       <label class="checkbox-field" for="lead-consent">
         <input id="lead-consent" name="consent" type="checkbox" value="yes" required />
         <span>
-          Согласен(на) на обратную связь по указанному номеру и обработку данных для ответа на заявку.
-          Подробная политика конфиденциальности будет добавлена на следующем этапе.
+          Согласен(на) на обработку данных для связи по заявке.
         </span>
       </label>
 
