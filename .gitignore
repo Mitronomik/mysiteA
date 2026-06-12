@@ -27,3 +27,7 @@ pnpm-debug.log*
 
 .venv/
 source/extracted/
+
+# local SMTP credentials
+config/mail-config.php
+vendor/

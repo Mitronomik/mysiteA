@@ -1,4 +1,19 @@
-<section class="section-pad lead" aria-labelledby="lead-form-title">
+---
+const statusScript = `
+  const leadStatus = new URLSearchParams(window.location.search).get("lead");
+  const message = leadStatus === "success"
+    ? document.querySelector("[data-lead-success]")
+    : leadStatus === "error"
+      ? document.querySelector("[data-lead-error]")
+      : null;
+
+  if (message) {
+    message.hidden = false;
+  }
+`;
+---
+
+<section class="section-pad lead" id="contact" aria-labelledby="lead-form-title">
   <div class="container lead__grid">
     <div class="lead__copy">
       <p class="eyebrow">Заявка на консультацию</p>
@@ -8,35 +23,68 @@
       </p>
     </div>
 
-    <form class="lead-form" id="lead-form">
+    <form class="lead-form" id="lead-form" action="/lead.php" method="POST">
       <div class="form-field">
         <label for="lead-name">Имя</label>
-        <input id="lead-name" name="name" type="text" autocomplete="name" placeholder="Как к вам обращаться" />
+        <input
+          id="lead-name"
+          name="name"
+          type="text"
+          autocomplete="name"
+          placeholder="Как к вам обращаться"
+          required
+        />
       </div>
 
       <div class="form-field">
         <label for="lead-phone">Телефон</label>
-        <input id="lead-phone" name="phone" type="tel" autocomplete="tel" placeholder="+7 ___ ___-__-__" />
+        <input
+          id="lead-phone"
+          name="phone"
+          type="tel"
+          autocomplete="tel"
+          placeholder="+7 ___ ___-__-__"
+          required
+        />
+      </div>
+
+      <div class="form-field">
+        <label for="lead-comment">Комментарий</label>
+        <textarea
+          id="lead-comment"
+          name="comment"
+          rows="4"
+          placeholder="Например, интересующий адрес или удобное время звонка"
+        ></textarea>
+      </div>
+
+      <div class="form-field form-field--hidden" aria-hidden="true">
+        <label for="lead-website">Сайт</label>
+        <input id="lead-website" name="website" type="text" tabindex="-1" autocomplete="off" />
       </div>
 
       <label class="checkbox-field" for="lead-consent">
-        <input id="lead-consent" name="consent" type="checkbox" />
-        <span>Согласен(на) на обратную связь по указанному номеру.</span>
+        <input id="lead-consent" name="consent" type="checkbox" value="yes" required />
+        <span>
+          Согласен(на) на обработку данных для связи по заявке.
+        </span>
       </label>
 
-      <button class="button button--primary button--full" type="button">Получить консультацию</button>
+      <button class="button button--primary button--full" type="submit">Получить консультацию</button>
 
       <div class="form-state-list" aria-live="polite">
-        <div class="form-state form-state--success" hidden>
+        <div class="form-state form-state--success" data-lead-success hidden>
           <span class="form-state__icon" aria-hidden="true">✓</span>
-          <p>Спасибо, заявка подготовлена. Мы свяжемся с вами для уточнения деталей.</p>
+          <p>Спасибо, заявка отправлена. Мы свяжемся с вами для уточнения деталей.</p>
         </div>
 
-        <div class="form-state form-state--error" hidden>
+        <div class="form-state form-state--error" data-lead-error hidden>
           <span class="form-state__icon" aria-hidden="true">!</span>
-          <p>Проверьте имя и телефон перед отправкой.</p>
+          <p>Заявку не удалось отправить. Проверьте имя, телефон и согласие, затем попробуйте ещё раз.</p>
         </div>
       </div>
     </form>
   </div>
 </section>
+
+<script is:inline set:html={statusScript}></script>
